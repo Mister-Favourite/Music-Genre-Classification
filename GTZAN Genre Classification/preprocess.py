@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
@@ -30,3 +29,5 @@ np.save('GTZAN Genre Classification\GTZAN Dataset\X_train.npy', X_train)
 np.save('GTZAN Genre Classification\GTZAN Dataset\X_test.npy', X_test)
 np.save('GTZAN Genre Classification\GTZAN Dataset\y_train.npy', y_train)
 np.save('GTZAN Genre Classification\GTZAN Dataset\y_test.npy', y_test)
+
+

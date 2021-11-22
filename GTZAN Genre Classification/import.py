@@ -44,3 +44,5 @@ for g in genres:
         with file:
             writer = csv.writer(file)
             writer.writerow(to_append.split())
+
+            
